@@ -1,9 +1,10 @@
 # react-native-push-notifications-example
 React Native Push Notifications Example
 
-* [Available Scripts](#available-scripts)
-  * [npm start](#npm-start)
-  * [npm test](#npm-test)
-  * [npm run ios](#npm-run-ios)
-  * [npm run android](#npm-run-android)
-  * [npm run eject](#npm-run-eject)
+## Setup
+
+- `npm install`
+
+- Follow instructions from [react-native-push-notification](https://github.com/zo0r/react-native-push-notification)
+
+- `npm run ios` and/or `npm run android`
