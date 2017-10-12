@@ -11,7 +11,9 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "node node_modules/jest/bin/jest.js --watch"
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "preset": "jest-expo"
@@ -19,6 +21,8 @@
   "dependencies": {
     "react": "16.0.0-alpha.12",
     "react-native": "^0.46.1",
-    "react-native-push-notification": "^3.0.0"
-  }
+    "react-native-push-notification": "^3.0.0",
+    "snyk": "^1.42.6"
+  },
+  "snyk": true
 }
